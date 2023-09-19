@@ -17,17 +17,17 @@ public class Main {
         ObjectHolder oh1 = new ObjectHolder(123);
         System.out.println(oh1.getA());
         oh1.setA(new Car());
-        System.out.println((int)oh1.getA() + 1);
+        System.out.println(oh1.getA());
 
-        /** Zadanie 1.1 - 1.2 */
-        /*
+        // Zadanie 1.1 - 1.2
+
         Compare MyComparator = new Compare();
         MyComparator.compareValues(1,1);
         MyComparator.compareValues(1.1d,2.2d);
         MyComparator.compareValues(1.0f,0.1f);
         MyComparator.compareValues((byte)1, (byte)2);
         MyComparator.compareValues("00001", "2");
-        */
+
         /** Zadanie 1.3 */
         /*
         Compare MyComparator = new Compare();
