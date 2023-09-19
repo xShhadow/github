@@ -15,4 +15,5 @@ public class LiczbaHolder {
     public void setA(int a) {
         this.a = a;
     }
+
 }
