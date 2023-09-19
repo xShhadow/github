@@ -8,6 +8,7 @@ public class LiczbaHolder {
     }
 
     public int getA() {
+
         return a;
     }
 
